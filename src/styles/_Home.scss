@@ -1,0 +1,32 @@
+@import "_Variables";
+@import "../App.scss";
+
+section {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	h1 {
+		font-family: $letra-principal;
+		font-size: 50px;
+		font-weight: bold;
+	}
+	h2 {
+		font-family: $letra-principal;
+		font-size: 50px;
+		margin: 5px;
+	}
+	div {
+		display: flex;
+		justify-content: center;
+		i {
+			font-size: 30px;
+			margin: 10px;
+			background-color: #121212;
+			color: white;
+			border-radius: 50%;
+			padding: 10px;
+		}
+	}
+}

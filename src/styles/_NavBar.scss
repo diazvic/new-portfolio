@@ -1,0 +1,23 @@
+@import "_Variables";
+@import "../App.scss";
+
+.barra-navegacion {
+	background-color: $color-nav;
+	height: 80px;
+	ul {
+		display: flex;
+		justify-content: space-around;
+		list-style: none;
+		padding-inline-start: 0;
+		font-family: "Roboto";
+		font-size: 20px;
+	}
+	li {
+		margin: 20px;
+		padding: 5px;
+		.link-nav {
+			text-decoration: none;
+			color: white;
+		}
+	}
+}

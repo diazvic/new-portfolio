@@ -1,6 +1,15 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import Context from "../context/Context";
 import "../styles/_NavBar.scss";
+import "../styles/_DarkTheme.scss";
 const NavBar = () => {
+	const context = useContext(Context);
+
+	const handleClick = () => {
+		context.setDarkTheme(!context.darkTheme);
+	};
+
 	return (
 		<div>
 			<nav className="barra-navegacion">
@@ -35,6 +44,9 @@ const NavBar = () => {
 							Contact
 						</Link>
 					</li>
+					<button onClick={handleClick}>
+						Cambiar modo {context.darkTheme ? "💡" : "🌙"}
+					</button>
 				</ul>
 			</nav>
 		</div>

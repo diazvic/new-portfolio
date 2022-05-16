@@ -1,0 +1,54 @@
+@import "_Variables";
+@import "../App.scss";
+@import "../styles/Home";
+.modo-oscuro {
+	.barra-navegacion {
+		background-color: $color-nav;
+		height: 80px;
+		ul {
+			display: flex;
+			justify-content: space-around;
+			list-style: none;
+			padding-inline-start: 0;
+			font-family: "Roboto";
+			font-size: 20px;
+		}
+		li {
+			margin: 20px;
+			padding: 5px;
+			.link-nav {
+				text-decoration: none;
+				color: white;
+			}
+		}
+	}
+	section {
+		background-color: #121212;
+		h1,
+		h2 {
+			color: white;
+		}
+	}
+}
+.modo-claro {
+	.barra-navegacion {
+		background-color: $color-nav;
+		height: 80px;
+		ul {
+			display: flex;
+			justify-content: space-around;
+			list-style: none;
+			padding-inline-start: 0;
+			font-family: "Roboto";
+			font-size: 20px;
+		}
+		li {
+			margin: 20px;
+			padding: 5px;
+			.link-nav {
+				text-decoration: none;
+				color: white;
+			}
+		}
+	}
+}

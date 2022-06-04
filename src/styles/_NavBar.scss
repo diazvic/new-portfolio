@@ -1,23 +1,77 @@
 @import "_Variables";
 @import "../App.scss";
 
-.barra-navegacion {
-	background-color: $color-nav;
-	height: 80px;
-	ul {
-		display: flex;
-		justify-content: space-around;
+// .navbar {
+// 	background-color: $color-nav;
+// 	height: 80px;
+// 	ul {
+// 		display: flex;
+// 		justify-content: space-around;
+// 		list-style: none;
+// 		padding-inline-start: 0;
+// 		font-family: "Roboto";
+// 		font-size: 20px;
+// 	}
+// 	li {
+// 		margin: 20px;
+// 		padding: 5px;
+// 		.link-nav {
+// 			text-decoration: none;
+// 			color: white;
+// 			cursor: pointer;
+// 		}
+// 	}
+.mobile-menu-icon {
+	display: none;
+}
+// }
+
+@media screen and (max-width: 768px) {
+	.nav-links-mobile {
+		position: absolute;
+		display: block;
 		list-style: none;
-		padding-inline-start: 0;
-		font-family: "Roboto";
-		font-size: 20px;
-	}
-	li {
-		margin: 20px;
-		padding: 5px;
-		.link-nav {
-			text-decoration: none;
-			color: white;
+		text-decoration: none;
+		background-color: black;
+		left: 0;
+		transition: all 0.5s ease-out;
+		width: 100%;
+		height: 70px;
+		li {
+			display: none;
 		}
 	}
+	.nav-links {
+		position: absolute;
+		display: block;
+		font-size: 30px;
+		color: white;
+		background-color: pink;
+		border: none;
+		outline: none;
+		width: 100%;
+		height: 700px;
+		text-decoration: none;
+		transition: all 0.5s ease;
+	}
+	.prueba {
+		text-decoration: none;
+		display: flex;
+		justify-content: center;
+		padding: 30px;
+	}
+	.mobile-menu-icon {
+		position: absolute;
+		display: block;
+		font-size: 30px;
+		color: white;
+		background-color: #00828c;
+		border: none;
+		outline: none;
+		top: 15px;
+		right: 25px;
+	}
 }
+
+// cuando es mobile quiero ocultar el nav y q venga con el menu
+// hamburguesa y al hacer clic en ese menu vuelva a aparecer el nav

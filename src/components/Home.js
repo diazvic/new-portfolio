@@ -1,4 +1,5 @@
 import "../styles/_Home.scss";
+import { github, linkedin, mail } from "../utils/Variables";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
@@ -19,15 +20,15 @@ const Home = () => {
 				/>
 			</h2>
 			<div>
-				<i>
+				<a href={linkedin}>
 					<FaLinkedinIn />
-				</i>
-				<i>
+				</a>
+				<a href={github}>
 					<FaGithub />
-				</i>
-				<i>
+				</a>
+				<a href={mail}>
 					<HiOutlineMail />
-				</i>
+				</a>
 			</div>
 		</section>
 	);

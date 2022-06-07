@@ -7,7 +7,6 @@ import "../styles/_DarkTheme.scss";
 const NavBar = () => {
 	const context = useContext(Context);
 	const [isMobile, setIsMobile] = useState(true);
-	const [cerrarModal, setCerrarModal] = useState(false);
 	const handleClick = () => {
 		context.setDarkTheme(!context.darkTheme);
 	};
@@ -21,7 +20,7 @@ const NavBar = () => {
 				<ul className={isMobile ? "nav-links-mobile" : "nav-links"}>
 					<li>
 						<Link
-							className="prueba"
+							className="links-navbar"
 							to="/"
 							onClick={handleClickHamburguerMobile}
 						>
@@ -30,7 +29,7 @@ const NavBar = () => {
 					</li>
 					<li>
 						<Link
-							className="prueba"
+							className="links-navbar"
 							to="/about"
 							onClick={handleClickHamburguerMobile}
 						>
@@ -38,27 +37,27 @@ const NavBar = () => {
 						</Link>
 					</li>
 					<li>
-						<Link className="prueba" to="/skills">
+						<Link className="links-navbar" to="/skills">
 							Skills
 						</Link>
 					</li>
 					<li>
-						<Link className="prueba" to="/experience">
+						<Link className="links-navbar" to="/experience">
 							Experience
 						</Link>
 					</li>
 					<li>
-						<Link className="prueba" to="/projects">
+						<Link className="links-navbar" to="/projects">
 							Projects
 						</Link>
 					</li>
 					<li>
-						<Link className="prueba" to="/contact">
+						<Link className="links-navbar" to="/contact">
 							Contact
 						</Link>
 					</li>
 					<button onClick={handleClick}>
-						Cambiar modo {context.darkTheme ? "💡" : "🌙"}
+						{context.darkTheme ? "💡" : "🌙"}
 					</button>
 					<button
 						className="mobile-menu-icon"

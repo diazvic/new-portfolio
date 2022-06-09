@@ -1,0 +1,55 @@
+@import "_Variables";
+@import "../App.scss";
+
+.skills-container {
+	margin: 10px;
+	text-align: center;
+	h2 {
+		font-size: 45px;
+		margin: 5px;
+		padding: 10px;
+	}
+	p {
+		font-size: 20px;
+		font-family: "roboto";
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 20px;
+		padding: 35px;
+	}
+	h4 {
+		font-size: 30px;
+		margin: 5px;
+	}
+}
+img {
+	width: 40px;
+	height: 40px;
+}
+.languages,
+.frameworks,
+.tools {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+	padding: 15px;
+	font-size: 50px;
+	p {
+		color: black;
+	}
+}
+@media screen and (max-width: 768px) {
+	.languages,
+	.frameworks,
+	.tools {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		font-size: 70px;
+		p {
+			color: black;
+		}
+	}
+}

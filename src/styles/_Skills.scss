@@ -23,9 +23,6 @@
 		margin: 5px;
 	}
 }
-// i {
-// 	font-size: 50px;
-// }
 img {
 	width: 40px;
 	height: 40px;
@@ -41,5 +38,18 @@ img {
 	font-size: 50px;
 	p {
 		color: black;
+	}
+}
+@media screen and (max-width: 768px) {
+	.languages,
+	.frameworks,
+	.tools {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		font-size: 70px;
+		p {
+			color: black;
+		}
 	}
 }

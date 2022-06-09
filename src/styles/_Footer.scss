@@ -1,0 +1,15 @@
+@import "_Variables";
+@import "../App.scss";
+
+footer {
+	p {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: $color-nav;
+		color: white;
+		height: 50px;
+		font-family: "Roboto";
+		font-size: 20px;
+	}
+}

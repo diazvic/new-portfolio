@@ -37,22 +37,38 @@ const NavBar = () => {
 						</Link>
 					</li>
 					<li>
-						<Link className="links-navbar" to="/skills">
+						<Link
+							className="links-navbar"
+							to="/skills"
+							onClick={handleClickHamburguerMobile}
+						>
 							Skills
 						</Link>
 					</li>
 					<li>
-						<Link className="links-navbar" to="/experience">
+						<Link
+							className="links-navbar"
+							to="/experience"
+							onClick={handleClickHamburguerMobile}
+						>
 							Experience
 						</Link>
 					</li>
 					<li>
-						<Link className="links-navbar" to="/projects">
+						<Link
+							className="links-navbar"
+							to="/projects"
+							onClick={handleClickHamburguerMobile}
+						>
 							Projects
 						</Link>
 					</li>
 					<li>
-						<Link className="links-navbar" to="/contact">
+						<Link
+							className="links-navbar"
+							to="/contact"
+							onClick={handleClickHamburguerMobile}
+						>
 							Contact
 						</Link>
 					</li>

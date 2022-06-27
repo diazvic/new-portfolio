@@ -33,15 +33,15 @@
 			border: none;
 			margin: 20px;
 			border: 1px solid black;
-			border-radius: 5px;
-			width: 70px;
+			border-radius: 50px;
+			width: 80px;
 			height: 40px;
 			background-color: white;
 			font-size: 20px;
 			text-align: center;
 		}
 		button:hover {
-			background-color: #f7f7f7;
+			background-color: #e5e5e5;
 		}
 	}
 	span {
@@ -85,8 +85,8 @@
 	}
 	.box-projects {
 		a {
+			color: black;
 			button {
-				color: black;
 				width: 90px;
 				border-radius: 50px;
 			}

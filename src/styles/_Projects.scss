@@ -51,6 +51,28 @@
 		border-radius: 10px;
 		padding: 5px;
 	}
+	.react {
+		background-color: #61dafb;
+	}
+	.sass {
+		background-color: #ce649a;
+	}
+	.mui {
+		background-color: #027fff;
+	}
+	.js {
+		background-color: #efdb4f;
+		color: black;
+	}
+	.html {
+		background-color: #e54d26;
+	}
+	.css {
+		background-color: #3c8fc6;
+	}
+	.bulma {
+		background-color: #03d1b2;
+	}
 }
 .box-projects:hover {
 	background-color: #f7f7f7;
@@ -65,7 +87,8 @@
 		a {
 			color: black;
 			button {
-				width: 80px;
+				width: 90px;
+				border-radius: 50px;
 			}
 		}
 	}

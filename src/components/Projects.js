@@ -27,9 +27,9 @@ const Projects = () => {
 					>
 						<button>Github</button>
 					</a>
-					<span>React</span>
-					<span>Sass</span>
-					<span>Material UI</span>
+					<span className="react">React</span>
+					<span className="sass">Sass</span>
+					<span className="mui">Material UI</span>
 				</div>
 
 				<div className="box-projects">
@@ -41,9 +41,9 @@ const Projects = () => {
 					<a href="https://github.com/diazvic/buscadorDeArte" target="_blanck">
 						<button>Github</button>
 					</a>
-					<span>JavaScript</span>
-					<span>HTML</span>
-					<span>Sass</span>
+					<span className="js">JavaScript</span>
+					<span className="html">HTML</span>
+					<span className="sass">Sass</span>
 				</div>
 
 				<div className="box-projects">
@@ -61,9 +61,9 @@ const Projects = () => {
 					>
 						<button>Github</button>
 					</a>
-					<span>JavaScript</span>
-					<span>HTML</span>
-					<span>Bulma</span>
+					<span className="js">JavaScript</span>
+					<span className="html">HTML</span>
+					<span className="bulma">Bulma</span>
 				</div>
 
 				<div className="box-projects">
@@ -81,9 +81,9 @@ const Projects = () => {
 					>
 						<button>Github</button>
 					</a>
-					<span>JavaScript</span>
-					<span>HTML</span>
-					<span>Css</span>
+					<span className="js">JavaScript</span>
+					<span className="html">HTML</span>
+					<span className="css">Css</span>
 				</div>
 
 				<div className="box-projects">
@@ -98,9 +98,9 @@ const Projects = () => {
 					<a href="https://github.com/diazvic/ada-portafolio" target="_blanck">
 						<button>Github</button>
 					</a>
-					<span>HTML</span>
-					<span>Css</span>
-					<span>Flexbox</span>
+					<span className="html">HTML</span>
+					<span className="css">Css</span>
+					<span className="flexbox">Flexbox</span>
 				</div>
 
 				<div className="box-projects">
@@ -118,8 +118,8 @@ const Projects = () => {
 					>
 						<button>Github</button>
 					</a>
-					<span>React</span>
-					<span>Material UI</span>
+					<span className="react">React</span>
+					<span className="mui">Material UI</span>
 				</div>
 
 				<div className="box-projects">
@@ -137,8 +137,8 @@ const Projects = () => {
 					>
 						<button>Github</button>
 					</a>
-					<span>React</span>
-					<span>Sass</span>
+					<span className="react">React</span>
+					<span className="sass">Sass</span>
 				</div>
 			</div>
 		</>

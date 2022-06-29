@@ -20,9 +20,11 @@
 	.container-about {
 		display: flex;
 		flex-direction: column;
+		margin: 20px;
+		padding: 10px;
 		p {
 			font-size: 18px;
-			text-align: center;
+			text-align: justify;
 			line-height: 1.5;
 		}
 		img {

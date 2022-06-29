@@ -1,19 +1,21 @@
 import "../styles/_About.scss";
+import fotoAbout from "../images/fotoAbout.jpg";
 const About = () => {
 	return (
 		<div>
-			<section>
+			<section className="container-about">
 				<p>
-					about yourself, the better it is! Extra Information about you, like
-					hobbies and your goals. Example Paragraph: I am passionate about my
-					work. Because I love what I do, I have a steady source of motivation
-					that drives me to do my best. In my last job, this passion led me to
-					challenge myself daily and learn new skills that helped me to do
-					better work. For example, I taught myself how to use Photoshop to
-					improve the quality of our photos and graphics. I soon became the
-					go-to person for any design needs. This is where you can describe
-					about yourself. The more you describe
+					Me considero una persona metódica, que disfruta de trabajar en equipo
+					y alcanzar nuevos objetivos, durante la pandemia comencé a interesarme
+					en la programación, al principio viendo cursos en Youtube y luego
+					buscando una manera formal de ampliar mis conocimientos. En esta
+					búsqueda comencé con mis estudios en ADA ITW, aprendiendo y aplicando
+					tecnologías tales como HTML, CSS, JS, REACT, GIT, SASS, Material UI y
+					APIs. Actualmente habiendo egresado de ADA sigo trabajando día a día
+					en mejorar mis proyectos y ampliar mis conocimientos, en búsqueda de
+					una nueva oportunidad de aplicarlos en el ámbito laboral.
 				</p>
+				<img alt="foto de perfil" src={fotoAbout} />
 			</section>
 		</div>
 	);

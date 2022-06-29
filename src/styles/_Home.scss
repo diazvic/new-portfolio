@@ -30,3 +30,10 @@ section {
 		}
 	}
 }
+@media screen and (max-width: 768px) {
+	section {
+		h1 {
+			text-align: center;
+		}
+	}
+}

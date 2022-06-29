@@ -1,0 +1,33 @@
+@import "_Variables";
+@import "../App.scss";
+
+.container-about {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	p {
+		max-width: 600px;
+		font-family: $letra-principal;
+		font-size: 20px;
+		line-height: 1.6;
+	}
+	img {
+		width: 280px;
+		height: 300px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.container-about {
+		display: flex;
+		flex-direction: column;
+		p {
+			font-size: 18px;
+			text-align: center;
+			line-height: 1.5;
+		}
+		img {
+			width: 300px;
+			height: 300px;
+		}
+	}
+}
